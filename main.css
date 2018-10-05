@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+h1 {
+	font: Helvetica;
+	font-size: 40px;
+	letter-spacing: 2px;
+	font-weight: lighter;
+}
+
+.inputSection {
+	width: 300px;
+	margin: 40px 0px;
+}
+
+.inputs {
+	width: inherit;
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	margin-top: 10px;
+}
+
+.addOption {
+  margin-top: 10px;
+}
